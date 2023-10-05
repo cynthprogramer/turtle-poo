@@ -1,0 +1,49 @@
+#1) Mude/defina a forma da tartaruga
+#2) Mude a ordem das cores
+#3) Mude a largura da linha
+#4) Faça a tartaruga desenhar dois quadrados
+
+import turtle
+turtle = turtle.Turtle()
+
+#main code
+'''turtle.pensize(5)
+for color in ['blue', 'black', 'red', 'pink']:
+    turtle.color(color)
+    turtle.forward(100)
+    turtle.right(90)'''
+
+
+#1) mude a forma da tartaruga
+'''turtle.shape('circle')
+for color in ['blue', 'black', 'red', 'pink']:
+    turtle.color(color)
+    turtle.forward(100)
+    turtle.right(90)'''
+
+#2) mudar a ordem das cores
+'''turtle.shape('circle')
+for color in ['black', 'red', 'pink', 'blue']:
+    turtle.color(color)
+    turtle.forward(100)
+    turtle.right(90)'''
+
+#3) mudar a largura da linha
+'''turtle.shape('circle')
+for color in ['black', 'red', 'pink', 'blue']:
+    turtle.color(color)
+    turtle.forward(60)
+    turtle.right(90)'''
+
+#4) desenhar dois quadrados
+turtle.shape('circle')
+for color in ['black', 'red', 'pink', 'blue']:
+    turtle.color(color)
+    turtle.forward(100)
+    turtle.right(90)
+def saltar(i):
+  turtle.up()
+  turtle.forward(i)
+  turtle.down()
+  turtle.right(60)
+
