@@ -15,25 +15,25 @@ for color in ['blue', 'black', 'red', 'pink']:
 
 
 #1) mude a forma da tartaruga
-'''turtle.shape('circle')
+turtle.shape('circle')
 for color in ['blue', 'black', 'red', 'pink']:
     turtle.color(color)
     turtle.forward(100)
-    turtle.right(90)'''
+    turtle.right(90)
 
 #2) mudar a ordem das cores
-'''turtle.shape('circle')
+turtle.shape('circle')
 for color in ['black', 'red', 'pink', 'blue']:
     turtle.color(color)
     turtle.forward(100)
-    turtle.right(90)'''
+    turtle.right(90)
 
 #3) mudar a largura da linha
-'''turtle.shape('circle')
+turtle.shape('circle')
 for color in ['black', 'red', 'pink', 'blue']:
     turtle.color(color)
     turtle.forward(60)
-    turtle.right(90)'''
+    turtle.right(90)
 
 #4) desenhar dois quadrados
 turtle.shape('circle')
@@ -41,9 +41,16 @@ for color in ['black', 'red', 'pink', 'blue']:
     turtle.color(color)
     turtle.forward(100)
     turtle.right(90)
-def saltar(i):
-  turtle.up()
-  turtle.forward(i)
-  turtle.down()
-  turtle.right(60)
 
+turtle.up()
+turtle.forward(300)
+turtle.down()
+turtle.right(90)
+
+for color in ['black', 'red', 'pink', 'blue']:
+    turtle.color(color)
+    turtle.forward(100)
+    turtle.right(90)
+
+
+    
