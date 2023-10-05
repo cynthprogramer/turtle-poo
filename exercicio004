@@ -1,0 +1,50 @@
+#1) Acrescente ao menos mais duas cores à lista de cores possíveis
+#2) Faça o triângulo apontar para cima
+#3) Remova a cor vermelha da lista de cores possíveis
+#4) Mude a largura da linha
+
+import turtle
+import random
+turtle = turtle.Turtle()
+
+#main code
+'''colors = ['red', 'purple', 'blue']
+
+for _ in [1, 2, 3]:
+    color = random.choice(colors)
+    turtle.color(color)
+    turtle.forward(100)
+    turtle.right(120)'''
+
+#1) acrescentar duas cores a mais
+'''colors = ['red', 'purple', 'blue', 'pink', 'yellow', 'lightsteelblue'] #as cores 'pink','yellow', e 'lightsteelblue' foram add
+
+for _ in [1, 2, 3, 4, 5, 6]:
+    color = random.choice(colors)
+    turtle.color(color)
+    turtle.forward(100)
+    turtle.right(120)'''
+
+#2) triangulo apontar para cima
+'''colors = ['red', 'purple', 'blue']
+for _ in [1, 2, 3]:
+    color = random.choice(colors)
+    turtle.color(color)
+    turtle.forward(100)
+    turtle.right(240)'''
+
+#3) remover a cor vermelha
+'''colors = ['purple', 'blue']
+for _ in [1, 2, 3]: #msm sem a vermelha precisa ter o 3 ali 
+    color = random.choice(colors)
+    turtle.color(color)
+    turtle.forward(100)
+    turtle.right(120)'''
+
+#4) mudar a largura da linha
+colors = ['red', 'purple', 'blue']
+for _ in [1, 2, 3]:
+    color = random.choice(colors)
+    turtle.color(color)
+    turtle.forward(200)
+    turtle.right(120)
