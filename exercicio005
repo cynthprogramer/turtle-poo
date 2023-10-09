@@ -18,17 +18,17 @@ for _ in [1, 2, 3, 4]: #o retangulo
   turtle.right(90)'''
 
 #1) aumentar o tamanho do envelope
-turtle.color('red')
+'''turtle.color('red')
 for _ in [1, 2, 3]:
     turtle.forward(150)
     turtle.right(120)
 
 for _ in [1, 2, 3, 4]:
   turtle.forward(150)
-  turtle.right(90)
+  turtle.right(90)'''
 
 #2) usar formas diferentes da tartaruga 
-turtle.color('red')
+'''turtle.color('red')
 for _ in [1, 2, 3]:
     turtle.shape('arrow')
     turtle.forward(150)
@@ -37,7 +37,7 @@ for _ in [1, 2, 3]:
 for _ in [1, 2, 3, 4]:
     turtle.shape('circle')
     turtle.forward(150)
-    turtle.right(90)
+    turtle.right(90)'''
 
 #3) deixar o envelope colorido
 rainbow = ('red', 'purple', 'pink', 'green')
@@ -56,11 +56,11 @@ for _ in [1, 2, 3, 4]:
     turtle.right(90)
 
 #4) reduzir a aba do envelope
-turtle.color('red')
+'''turtle.color('red')
 for _ in range(3): 
-    turtle.forward(76)
+    turtle.forward(90)
     turtle.right(120)
 
 for _ in range (4): 
   turtle.forward(100)
-  turtle.right(90)
+  turtle.right(90)'''

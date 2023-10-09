@@ -1,0 +1,94 @@
+#1) Faça cada quadrado ter uma cor
+#2) Faça cada quadrado com um formato diferente da tartaruga
+#3) Faça os quadrados não se tocarem
+#4) Desenhe um quadrado maior ao redor dos demais quadrados
+
+import turtle
+turtle = turtle.Turtle()
+#main code
+'''for _ in range(4):
+    turtle.forward(100)
+    turtle.right(90)
+
+for _ in range(4):
+   turtle.left(90)
+   turtle.forward(100)
+
+for _ in range(4):
+   turtle.forward(100)
+   turtle.left(90)
+
+for _ in range(4):
+   turtle.right(90)
+   turtle.forward(100)'''
+
+#1) cada quadrado ter uma cor
+'''for _ in range(4):
+    turtle.color('pink')
+    turtle.forward(100)
+    turtle.right(90)
+
+for _ in range(4):
+   turtle.color('blue')
+   turtle.left(90)
+   turtle.forward(100)
+
+for _ in range(4):
+   turtle.color('green')
+   turtle.forward(100)
+   turtle.left(90)
+
+for _ in range(4):
+   turtle.color('red')
+   turtle.right(90)
+   turtle.forward(100)'''
+
+#2) cada quadrado com um formato diferente da tartaruga
+'''for _ in range(4):
+    turtle.shape('arrow')
+    turtle.forward(100)
+    turtle.right(90)
+
+for _ in range(4):
+   turtle.shape('circle')
+   turtle.left(90)
+   turtle.forward(100)
+
+for _ in range(4):
+   turtle.shape('turtle')
+   turtle.forward(100)
+   turtle.left(90)
+
+for _ in range(4):
+   turtle.shape('triangle')
+   turtle.right(90)
+   turtle.forward(100)'''
+
+#4) desenhar quadradop maior
+for _ in range(4):
+    turtle.forward(100)
+    turtle.right(90)
+
+for _ in range(4):
+   turtle.left(90)
+   turtle.forward(100)
+
+for _ in range(4):
+   turtle.forward(100)
+   turtle.left(90)
+
+for _ in range(4):
+   turtle.right(90)
+   turtle.forward(100)
+
+for m in range(4):
+    turtle.forward(100)
+    turtle.left(90)
+    turtle.forward(120)
+    turtle.left(90)
+
+    
+
+    
+    
+    

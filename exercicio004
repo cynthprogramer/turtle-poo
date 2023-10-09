@@ -26,12 +26,12 @@ for _ in [1, 2, 3, 4, 5, 6]:
     turtle.right(120)'''
 
 #2) triangulo apontar para cima
-'''colors = ['red', 'purple', 'blue']
+colors = ['red', 'purple', 'blue']
 for _ in [1, 2, 3]:
     color = random.choice(colors)
     turtle.color(color)
     turtle.forward(100)
-    turtle.right(240)'''
+    turtle.right(240)
 
 #3) remover a cor vermelha
 '''colors = ['purple', 'blue']
@@ -42,9 +42,9 @@ for _ in [1, 2, 3]: #msm sem a vermelha precisa ter o 3 ali
     turtle.right(120)'''
 
 #4) mudar a largura da linha
-colors = ['red', 'purple', 'blue']
+'''colors = ['red', 'purple', 'blue']
 for _ in [1, 2, 3]:
     color = random.choice(colors)
     turtle.color(color)
     turtle.forward(200)
-    turtle.right(120)
+    turtle.right(120)'''

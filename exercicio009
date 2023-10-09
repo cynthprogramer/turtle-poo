@@ -1,0 +1,27 @@
+#1) Faça cada passo da tartaruga ter uma cor diferente
+#2) Aumente/diminua o diâmetro do círculo
+
+import turtle
+turtle = turtle.Turtle()
+import random
+
+#main code 
+'''for c in range(360):
+    turtle.color('red')
+    turtle.forward(1)
+    turtle.right(1)'''
+
+
+#1) cada passo ter cor diferente
+'''colors = ['green', 'pink', 'blue','red']
+for c in range(120):
+    color = random.choice(colors)
+    turtle.color(color)
+    turtle.forward(2)
+    turtle.right(2)'''
+
+#2) aumentar/diminuir o diametro
+for c in range(200):
+    turtle.color('red')
+    turtle.forward(5)
+    turtle.right(2)
